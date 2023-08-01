@@ -58,26 +58,12 @@ body{
 
 .about-post{
     padding: 8%;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 }
 
 .about-post > h2{
     font-size: 1.2rem;
     line-height: 1.5;
-}
-
-#profile-card-section img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: top;
-}
-
-#profile-card-section{
-    width: 60%;
-    margin: auto;
-    margin-bottom: 15%;
 }
 
 .post-excerpt{
@@ -90,20 +76,44 @@ body{
     padding-bottom: 5%;
 }
 
-.p-8{
-    padding-bottom: 8%;
+.p-5:hover {
+    color: blue;
 }
 
-.p-10{
-    padding: 10%;
+.p-8{
+    padding-bottom: 8%;
 }
 
 .d-flex{
     display: flex;
 }
 
+a {
+    color: black;
+}
 .jc-space-between{
     justify-content: space-between;
+}
+.jc-space-between:hover {
+    color: blue;
+}
+
+.card-shadow:hover, .card-shadow:hover a{
+    color: blue;
+}
+
+
+.browse-posts:hover{
+    background-color: #e2e3e9;
+    transform: translateY(-5px) scale(1);
+}
+
+.card-shadow:hover{
+    transform: translateY(-5px) scale(1);
+}
+
+.card-shadow:hover img{
+    transform: scale(1.0);
 }
     /* Not needed here */
     /*.w-40{
@@ -151,8 +161,23 @@ body{
 
 .bg-twitter{
     background-color: #4da7de;
-} */
+} 
+#profile-card-section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
 
+#profile-card-section{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15%;
+}
+.p-10{
+    padding: 10%;
+}
 .color-white{
     color: white;
-}
+} */
