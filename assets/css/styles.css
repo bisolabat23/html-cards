@@ -15,7 +15,7 @@ body{
 
 .containerise{
     margin: auto;
-    width: 80%;
+    width: 85%;
     padding-bottom: 10%;
 }
 
@@ -33,7 +33,7 @@ body{
 
 .cards-container > div{
     width: 32%;
-    border-radius: 15px;
+    border-radius: 25px;
     background: white;
 }
 
@@ -48,7 +48,7 @@ body{
     border: solid 1px #e2e3e9;
     border-radius: 30px;
     /* padding: 15px; */
-    padding: 15px 30px;
+    padding: 18px 32px;
     /* padding-top: ;
     padding-bottom: ;
     padding-left: ;
@@ -58,6 +58,7 @@ body{
 
 .about-post{
     padding: 8%;
+    transition: transform 0.2s;
 }
 
 .about-post > h2{
@@ -104,8 +105,8 @@ body{
 .jc-space-between{
     justify-content: space-between;
 }
-
-.w-40{
+    /* Not needed here */
+    /*.w-40{
     width: 40%;
 }
 
@@ -150,9 +151,8 @@ body{
 
 .bg-twitter{
     background-color: #4da7de;
-}
+} */
 
 .color-white{
     color: white;
 }
-
